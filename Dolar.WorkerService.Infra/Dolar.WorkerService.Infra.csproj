@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Http" Version="3.1.5" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Dolar.WorkerService.Domain\Dolar.WorkerService.Domain.csproj" />
+    <ProjectReference Include="..\Dolar.WorkerService.Utils\Dolar.WorkerService.Utils.csproj" />
+  </ItemGroup>
+
+</Project>
